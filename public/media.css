@@ -1,0 +1,189 @@
+/*Header Toggle button */
+@media screen and (max-width:767px) {
+    .sticky{
+        box-shadow:6px 6px 2px var(--bg-color);
+    }
+    /* ul */
+    .navbar-nav {
+        flex-direction: row;
+        z-index: 99;
+        justify-content: space-around;
+       background-color: var(--bg-color);
+       box-shadow: 2px 2px 5px var(--nav-shadow);
+    }
+    /* ul->li->a */
+    .nav-link {
+        padding: 2px 0px 3px 0px;
+    }
+}
+@media screen and (max-width:670px) {
+    /* Header--content->left */
+    .image {
+        display: none;
+    }
+     /* header--content->right */
+     .main-text {
+        width: 100vw;
+    }
+}
+@media screen and (max-width:500px) {
+    /* ul->li */
+    .nav-item {
+        width: 4.5rem;
+    }
+
+    /* ul->li->a */
+    .nav-item a {
+        font-size: 1.1rem;
+    }
+
+    /* ul->li->a */
+    .nav-link {
+        padding: 1px 0 2px 0;
+    }
+}
+@media screen and (max-width:426px) {
+    /* header--content */
+    #head {
+        display: flex;
+        margin: 14% 0 0 9%;
+    } 
+    .main-text h2 {
+        font-size: 1.7rem;
+    }
+    .main-text h2 span{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:400px) {
+    /* ul->li */
+    .nav-item {
+        width: auto;
+    }
+}
+@media screen and (max-width:350px) {
+
+    /* button */
+    .navbar-toggler {
+        margin: 0;
+        padding: 0 0 0 1.2rem;
+    }
+}
+
+/* ------- About Me -------- */
+@media screen and (max-width:576px) {
+
+    .myimage{
+        justify-content:center;
+     }
+
+     .myself_content{
+        align-items:flex-end;
+        justify-content:flex-start;
+        padding-left: 17%;
+    }
+
+    .aboutme_p {
+        margin: 0;
+        padding: 0 10px;
+        border: none;
+    }
+}
+@media screen and (max-width:376px) {
+    .myself_content{
+       padding: 0;
+    }
+
+
+}
+
+/* //---Contact Skill and Section ---- */
+
+/* ---------- 769 */
+@media screen and (max-width:769px) {
+    /* title */
+    .section_title_1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .section_title_2 {
+        font-size: 2.5rem;
+    }
+
+}
+
+/* ---------- 426 */
+@media screen and (max-width:426px) {
+
+    /* --My Contact-- */
+
+    /* Contact left */
+    .contact_ph {
+        margin: 0 0 4rem 13%;
+        /* border: bottom width 80%; 
+    padding-bottom:1rem ; */
+    }
+
+    /* Contact right */
+    .contact_email {
+        margin-left: 13%;
+    }
+
+    .contact_email p {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--third-color);
+    }
+
+    p.title {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--title-color);
+    }
+}
+
+/* ---------- 376 */
+@media screen and (max-width:376px) {
+
+    /* title */
+    .section_title_1 {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .section_title_2 {
+        font-size: 1.8rem;
+    }
+
+    /* --My Skill-- */
+    h4 {
+        margin-bottom: 2rem;
+    }
+
+    /* skill left */
+    .skill_bar {
+        margin: 0 0 2rem 0;
+        padding-right: 0;
+    }
+
+    .course {
+        display: none;
+    }
+
+    .mobile_course {
+        display: block;
+    }
+}
+
+/* --- My Project --- */
+@media (max-width:600px) {
+    .project_link {
+        width: 48%;
+    }
+}
+@media (max-width:375px) {
+    .project_link {
+        width: 80%;
+    }
+}
